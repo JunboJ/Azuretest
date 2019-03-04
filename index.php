@@ -9,5 +9,6 @@
 <body>
     <?php
         echo "this is for auzre deployment test";
+    ?>
 </body>
 </html>
