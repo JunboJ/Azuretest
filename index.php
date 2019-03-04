@@ -7,9 +7,6 @@
     <link rel="stylesheet" href="css/main_css.css" type="text/css"/>
 </head>
 <body>
-    <?php
-        echo "this is for azure test";
-    ?>
         <header>
             <div id="header">
             <table>
