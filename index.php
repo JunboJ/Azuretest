@@ -44,7 +44,7 @@
             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
                 <section id="video_section" class="row">
                         <video id="video" controls autoplay>
-                            <source src="../videos/forwebsite.mp4" type="video/mp4">
+                            <source src="videos\forwebsite.mp4" type="video/mp4">
                         </video>
                     </section>
                 <section class="text text-1 row">
