@@ -8,7 +8,6 @@
 </head>
 <body>
     <?php
-<<<<<<< HEAD
         echo "this is for azure test";
     ?>
         <header>
@@ -124,9 +123,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="javascript/page1.js"></script>
 
-=======
-        echo "this is for auzre deployment test";
-    ?>
->>>>>>> ca8b8cbd4b0aacaaf9891830e9b79915a56ebd33
+
 </body>
 </html>
