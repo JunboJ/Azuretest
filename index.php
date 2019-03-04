@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main_css.css" type="text/css"/>
+    <link href="//amp.azure.net/libs/amp/2.2.4/skins/amp-default/azuremediaplayer.min.css" rel="stylesheet">
+    <script src="//amp.azure.net/libs/amp/2.2.4/azuremediaplayer.min.js"></script>
 </head>
 <body>
         <header>
@@ -40,9 +42,7 @@
         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
                 <section id="video_section" class="row">
-                        <video id="video" controls autoplay>
-                            <source src="videos/forwebsite.mp4" type="video/mp4">
-                        </video>
+                        <video id="azuremediaplayer" class="azuremediaplayer amp-default-skin amp-big-play-centered" tabindex="0"></video>
                     </section>
                 <section class="text text-1 row">
                         <article>
