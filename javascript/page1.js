@@ -50,4 +50,18 @@ function input_check(id) {
         document.getElementById(id).classList.remove("empty");
     }
 }
-            
+//azure video
+var myOptions = {
+	"nativeControlsForTouch": false,
+	controls: true,
+	autoplay: true,
+	width: "640",
+	height: "400",
+}
+myPlayer = amp("azuremediaplayer", myOptions);
+myPlayer.src([
+        {
+                "src": "http://trailer-aueas.streaming.media.azure.net/a641d201-9b58-45ff-ab3a-cebd05d75cf5/forwebsite.ism/manifest",
+                "type": "application/vnd.ms-sstr+xml"
+        }
+]);
