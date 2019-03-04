@@ -61,7 +61,7 @@ var myOptions = {
 myPlayer = amp("azuremediaplayer", myOptions);
 myPlayer.src([
         {
-                "src": "http://trailer-aueas.streaming.media.azure.net/a641d201-9b58-45ff-ab3a-cebd05d75cf5/forwebsite.ism/manifest",
+                "src": "//trailer-aueas.streaming.media.azure.net/a641d201-9b58-45ff-ab3a-cebd05d75cf5/forwebsite.ism/manifest",
                 "type": "application/vnd.ms-sstr+xml"
         }
 ]);
