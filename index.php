@@ -20,7 +20,7 @@
                     <td>
                         <ul id="menu">
                             <li>
-                                <a href="index.html" target="_blank">Home</a>
+                                <a href="index.php" target="_blank">Home</a>
                                 |
                             </li>
                             <li>
