@@ -1,0 +1,224 @@
+body{
+    width: auto;
+    background-color: rgba(2, 24, 101, 0.979);
+    background-attachment: fixed;
+    background-size:cover;
+    height: 100%;
+}
+header{
+    position: relative;
+    margin:-7px -7px 50px;
+    height: 120px;
+    background-image: url(../img/headerback.jpg);
+    box-shadow: 0px 2px 20px 0px black;
+}
+
+
+#header {
+    line-height: 120px;
+    padding-top: 15px;
+}
+header table{
+    width: 100%;
+}
+
+header a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    /* padding: 53px 5px 53px 5px;*/
+}
+
+header a:hover{
+    background-color: rgba(255, 17, 0, 0.836);
+    transition: background .1s ease-in-out;
+    text-decoration: none;
+    color: white;
+}
+#menu {
+    text-align: right;
+    padding-right: 20px;
+    width: 100%;
+}
+#menu li {
+    display: inline;
+}
+#menu li a{
+    color:darkblue;
+    font-size: 25px;
+}
+
+@media (max-width:1000px){
+    #slogan {
+        display: none;
+    }
+    #logo {
+        text-align: center;
+    }
+    #logo_pic{
+        height: 100px;
+        }
+
+    #headertext{
+            display: none;
+        }
+}
+
+@media (min-width:1000px){
+    #logo{
+        text-align: left;
+    }
+    #slogan{
+        text-align: right; 
+        padding-right: 40px;
+    }
+    #logo_pic{
+        height: 100px;
+        padding-left: 30px;
+       
+    }
+    #headertext{
+        height :30px;
+    }
+}       
+        
+        section{
+            margin:5px;
+            background-color: white;
+            text-align: left;
+            position: relative;
+            height: auto;
+        }
+        
+        
+        #button {
+            text-align: right;
+}
+        #button2 {
+            text-align: right;
+        }
+        .tab{
+            overflow: hidden;
+            text-decoration: none;
+            color: white;
+            line-height: 30px;
+            padding: 5px;
+            
+            
+        }
+        h3{ font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            color: darkblue;          
+
+        }
+
+        .merch_pic {
+            width:200px;
+            height:auto;
+            margin: auto;
+        }
+
+        #bundles {
+            background-color: white;
+            color : darkblue;
+            text-align: center;
+            line-height: 25px;
+            font-weight: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding:30px;
+        }
+
+        .tab button{
+            background-color:rgb(59, 59, 59);
+            outline: none;
+            border: none;
+            color: white;
+            line-height: 50px;
+            display: inline-block;
+            width:33%;
+        }
+        .tab button:hover {
+            background-color:red;
+          }
+          .tabcontent{
+              display: none;
+          }
+          .tabinfo{
+              padding: 50px;
+              text-align: justify;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              
+          }
+          
+          .tabinfo2 {
+            padding: 20px;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+          .tabinfo h2{
+              text-align: center;
+              font-weight: bold;
+          }
+          
+        footer{
+            background-color: rgb(79, 79, 79);
+            height: 60px;
+            margin: 0px -8px 0px;
+            border-radius: 5px 5px 0px 0px;
+        }
+        
+        footer article{
+            margin: 20px 0px 0px 20px;
+            padding: 20px 0px 0px 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size : 10px;
+            text-align: center;
+            color: white;
+        }
+        
+        /*this is form validation*/
+        #cardtype_radios {
+            text-align: center;
+            margin: 30px 0px 30px;
+        }
+
+        .valid_input {
+            margin: 5px 3px;
+        }
+        .form_title {
+            text-align: right;
+        }
+        #law_file {
+            color: royalblue;
+            text-decoration: none;
+        }
+        #card_radioButton {
+            height: 40px;
+        }
+        #card_radioButton img input {
+            line-height: 40px;
+        }
+        #check_box {
+            text-align: right;
+            padding: 30px;
+            background-color: aquamarine;
+        }
+        #confirm_message {
+            display: none;
+            padding: 40px;
+        }
+
+        #confirm_message p {
+            width: 60%;
+            border-radius: 5px;
+            margin: 0px auto 0px;
+            padding: 40px;
+        }
+
+        .form_align {
+            text-align: center;
+        }
+
+        .empty {
+            background-color:lightcoral;
+        }
