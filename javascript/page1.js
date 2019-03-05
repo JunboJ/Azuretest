@@ -55,6 +55,8 @@ var myOptions = {
 	"nativeControlsForTouch": false,
 	controls: true,
 	autoplay: true,
+	width: "100%",
+    	height: "auto",
 }
 myPlayer = amp("azuremediaplayer", myOptions);
 myPlayer.src([
