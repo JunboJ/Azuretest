@@ -54,9 +54,15 @@ function input_check(id) {
 var myOptions = {
 	"nativeControlsForTouch": false,
 	controls: true,
+<<<<<<< HEAD
     autoplay: true,
     width: "100%",
     height: "auto",
+=======
+	autoplay: true,
+	width: "100%",
+    	height: "auto",
+>>>>>>> 52dd6d298e4d12e10d1dc4adfe39ebeccb74d4bd
 }
 myPlayer = amp("azuremediaplayer", myOptions);
 myPlayer.src([
